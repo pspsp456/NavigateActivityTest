@@ -11,5 +11,6 @@
     <string name="nav_drawable_exercise">Exercise</string>
     <string name="nav_drawable_diet">Diet</string>
     <string name="nav_drawable_setting">Setting</string>
+    <string name="signup">회원가입</string>
 
 </resources>
