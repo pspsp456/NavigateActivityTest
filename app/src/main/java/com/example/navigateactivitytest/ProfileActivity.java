@@ -36,6 +36,8 @@ public class ProfileActivity extends AppCompatActivity {
     {
         SectionPageAdapter adapter = new SectionPageAdapter(getSupportFragmentManager());
         adapter.addFragment(new tab1Activity(), "TAB1");
+        adapter.addFragment(new tab2Activity(), "TAB2");
+        adapter.addFragment(new tab3Activity(), "TAB3");
 
         viewPager.setAdapter(adapter);
     }
